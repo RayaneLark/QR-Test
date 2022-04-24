@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QR-Test/static/css/main.dcc7acf8.css",
+    "main.js": "/QR-Test/static/js/main.3d7b2790.js",
+    "static/media/login_img.png": "/QR-Test/static/media/login_img.5ef509d8b34bb5ad94ac.png",
+    "static/media/Google_logo.png": "/QR-Test/static/media/Google_logo.78998f2b8d305a32427e.png",
+    "index.html": "/QR-Test/index.html",
+    "main.dcc7acf8.css.map": "/QR-Test/static/css/main.dcc7acf8.css.map",
+    "main.3d7b2790.js.map": "/QR-Test/static/js/main.3d7b2790.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcc7acf8.css",
+    "static/js/main.3d7b2790.js"
+  ]
+}
