@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Quicksand:wght@300;400&family=Roboto:wght@100;300&display=swap');
+
+.formCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    font-family: 'Quicksand', sans-serif;
+
+    form {
+        width: 50%;
+    
+
+
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1em;
+            color: #999;
+            margin-bottom: 2em;
+        }
+
+        span {
+            font-weight: bolder;
+            font-size: 1em;
+        }
+
+        .inputBox {
+
+            input {
+                width: 110%;
+                height: 40px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid #999;
+                text-indent: 10px;
+
+            
+                &::placeholder {
+                    font-weight: 700;
+                    text-indent: 10px;
+                }
+            }
+        }
+
+        .usefull {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 110%;
+            font-weight: 600;
+            font-size: 0.9em;
+
+            input {
+                margin-right: 5px;
+            }
+        }
+
+        .btnSignin {
+            width: 110%;
+            margin-top: 20px;
+            height: 40px;
+            color: white;
+            background-color: #a363ec;
+            outline: none;
+            border: 1px solid #999;
+            border-radius: 10px;
+            font-weight: bolder;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #8d40e4;
+            }
+        }
+
+        .btnGoogle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 110%;
+            margin-top: 15px;
+            height: 40px;
+            color: black;
+            background-color: white;
+            outline: none;
+            border: 1px solid #999;
+            border-radius: 10px;
+            font-weight: bolder;
+            cursor: pointer;
+
+            img {
+                margin-right: 5px;
+            }
+        }
+
+        .linkSignin {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            font-size: 0.9em;
+
+            a {
+                margin-left: 5px;
+            }
+        }
+    }
+}
