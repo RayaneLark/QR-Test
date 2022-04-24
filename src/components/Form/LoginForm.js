@@ -14,7 +14,7 @@ function LoginForm() {
                     </div>
                     <span>Password</span>
                     <div className="inputBox">
-                        <input type="mail" className="mail" placeholder='Enter your password'/>
+                        <input type="password" className="pwd" placeholder='Enter your password'/>
                     </div>
                     <div className="usefull">
                         <div className='checkBox'>
